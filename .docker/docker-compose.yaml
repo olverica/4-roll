@@ -1,0 +1,10 @@
+version: '3.9'
+name: '4roll'
+services:
+  app:
+    container_name: flutter-app
+    build:
+      context: ./flutter
+    tty: true
+    volumes:
+      - ../:/home/developer/4all
